@@ -6,13 +6,15 @@ import {
 import Home from './pages/Home';
 import Person from './pages/Person';
 
-export default function Routes() {
+const Routes : React.FC = () => {
   return (
     <BrowserRouter>
         <Switch>
           <Route exact path="/"><Home /></Route>
-          <Route path="/person"><Person /></Route>
+          <Route path="/characters/:id"><Person /></Route>
         </Switch>
     </BrowserRouter>
   );
 }
+
+export default Routes;

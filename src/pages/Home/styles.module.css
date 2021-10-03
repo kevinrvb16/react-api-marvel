@@ -1,0 +1,11 @@
+body {
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(to right, rgb(48, 1, 1), rgb(219, 11, 11), rgb(48, 1, 1));
+    width: 100vw;
+}
+
+img {
+    border-radius: 25px;
+    max-width: 480px;
+}

@@ -1,5 +1,5 @@
 import Routes from './routes';
-function App() {
+const App: React.FC = () => {
   return (
     <div>
       <Routes/>

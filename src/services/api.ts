@@ -1,7 +1,7 @@
-import axios from "axios";
+import axios, { AxiosInstance } from "axios";
 
-const api = axios.create ({
-    baseURL: "http://localhost:"
+const api : AxiosInstance = axios.create ({
+    baseURL: "https://gateway.marvel.com:443/v1/public"
 })
 
 export default api;

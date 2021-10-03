@@ -1,0 +1,11 @@
+body {
+    align-items: center;
+    text-align: center;
+}
+.component {
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding-bottom: 20px;
+
+}
